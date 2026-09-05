@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ARCHA Restaurant &amp; Live Grill | Novotel Bishkek</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&amp;family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              orange: "#FA541C",
+              orangeHover: "#E04815",
+              orangeGlow: "rgba(250, 84, 28, 0.35)",
+              dark: "#0E1012",
+              darkSlate: "#14171A",
+              darkCard: "#1C1F24",
+              borderDark: "#2A2E35",
+              slateLight: "#F8F9FB",
+              slateMuted: "#EAECEF"
+            },
+            primary: "#FA541C",
+            "primary-container": "#FA541C",
+            surface: "#0E1012",
+            "on-surface": "#F3F4F6",
+            "on-surface-variant": "#9CA3AF"
+          },
+          fontFamily: {
+            headline: ["Epilogue", "sans-serif"],
+            body: ["Plus Jakarta Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "2xl": "1.25rem",
+            "3xl": "1.75rem",
+            "full": "9999px"
+          }
+        }
+      }
+    };
+  </script>
+<style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    h1, h2, h3, h4, .font-headline { font-family: 'Epilogue', sans-serif; }
+    
+    /* Paint / Ink distressed brush edge mask */
+    .brush-divider-bottom {
+      width: 100%;
+      height: 48px;
+      background-repeat: repeat-x;
+      background-size: 1400px 48px;
+    }
+  </style>
+</head>
+<body class="bg-[#0E1012] text-gray-800 antialiased selection:bg-[#FA541C] selection:text-white">
+<!-- ================= NAVBAR ================= -->
+<header class="fixed top-0 inset-x-0 z-50 bg-[#0E1012]/90 backdrop-blur-md border-b border-[#2A2E35]/60 transition-all duration-300">
+<div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<!-- Brand Logo -->
+<a class="flex items-center gap-3 group" href="#">
+<div class="w-10 h-10 rounded-full bg-gradient-to-tr from-[#FA541C] to-[#FF7A45] flex items-center justify-center text-white shadow-[0_0_20px_rgba(250,84,28,0.45)]">
+<span class="material-symbols-outlined text-[22px]">local_fire_department</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline font-extrabold text-xl tracking-tight text-white flex items-center gap-1">
+            ARCHA <span class="w-1.5 h-1.5 rounded-full bg-[#FA541C]"></span>
+</span>
+<span class="text-[10px] tracking-[0.24em] uppercase text-gray-400 font-semibold font-body">Restaurant &amp; Live Grill • Novotel</span>
+</div>
+</a>
+<!-- Desktop Nav Menu -->
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-xs uppercase tracking-widest font-semibold text-[#FA541C] hover:text-[#FA541C] transition-colors" href="#about">О нас</a>
+<a class="text-xs uppercase tracking-widest font-semibold text-gray-300 hover:text-[#FA541C] transition-colors" href="#special-offers">Спецпредложения</a>
+<a class="text-xs uppercase tracking-widest font-semibold text-gray-300 hover:text-[#FA541C] transition-colors" href="#team-chefs">Шеф-повара</a>
+<a class="text-xs uppercase tracking-widest font-semibold text-gray-300 hover:text-[#FA541C] transition-colors" href="#signature-dishes">Фирменные блюда</a>
+<a class="text-xs uppercase tracking-widest font-semibold text-gray-300 hover:text-[#FA541C] transition-colors" href="#contacts">Контакты</a>
+</nav>
+<!-- Action & Phone -->
+<div class="flex items-center gap-4 sm:gap-6">
+<a class="hidden md:flex items-center gap-2 text-gray-300 hover:text-[#FA541C] text-xs font-semibold tracking-wider transition-colors" href="tel:+996770118801">
+<span class="material-symbols-outlined text-[18px] text-[#FA541C]">call</span>
+<span>+996 770 118 801</span>
+</a>
+<a class="px-6 py-2.5 rounded-full bg-[#FA541C] text-white text-xs uppercase tracking-widest font-bold hover:bg-[#E04815] transition-all duration-300 shadow-[0_4px_20px_rgba(250,84,28,0.4)] hover:scale-105 active:scale-95" href="#booking-section">
+          Забронировать стол
+        </a>
+</div>
+</div>
+</header>
+<!-- ================= HERO SECTION (Dark Slate with Scattered Culinary Accents) ================= -->
+<section class="relative pt-32 pb-20 md:pt-40 md:pb-28 bg-[#0E1012] overflow-hidden">
+<!-- Subtle Texture & Micro Embers Overlay -->
+<div class="absolute inset-0 pointer-events-none opacity-20 bg-[radial-gradient(#FA541C_1px,transparent_1px)] [background-size:28px_28px]"></div>
+<!-- Ambient glowing ember orbs -->
+<div class="absolute top-1/4 left-10 w-96 h-96 rounded-full bg-[#FA541C]/10 blur-[120px] pointer-events-none"></div>
+<div class="absolute top-10 right-10 w-[500px] h-[500px] rounded-full bg-[#FA541C]/15 blur-[140px] pointer-events-none"></div>
+<div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Left Column: Copy & CTAs -->
+<div class="lg:col-span-6 flex flex-col items-start gap-6">
+<!-- Category Tag Pill -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1C1F24] border border-[#2A2E35] text-xs font-semibold uppercase tracking-wider text-gray-300">
+<span class="w-2 h-2 rounded-full bg-[#FA541C] animate-ping"></span>
+<span>Novotel Bishkek • Silk Road Heritage</span>
+</div>
+<!-- Headline -->
+<h1 class="font-headline font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-[1.12]">
+            Ресторан <span class="text-[#FA541C] italic">Archa</span><br/> в Novotel Bishkek
+          </h1>
+<!-- Subtitle / Tagline -->
+<p class="text-lg md:text-xl font-medium text-gray-300 italic">
+            Почувствуйте душу Великого шелкового пути в каждом блюде.
+          </p>
+<!-- Descriptive Copy -->
+<p class="text-sm md:text-base text-gray-400 max-w-xl leading-relaxed">
+            Авторские интерпретации традиционных вкусов, открытый гриль и атмосфера премиального уюта в самом сердце Бишкека. Мы соединили щедрое восточное гостеприимство с мировыми пятизвездочными стандартами международной сети Novotel.
+          </p>
+<!-- Button Actions -->
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="px-8 py-3.5 rounded-full bg-[#FA541C] text-white text-xs font-bold uppercase tracking-widest hover:bg-[#E04815] transition-all duration-300 shadow-[0_8px_30px_rgba(250,84,28,0.45)] hover:scale-105 active:scale-95 flex items-center gap-2" href="#booking-section">
+<span>Забронировать стол</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+<a class="px-7 py-3.5 rounded-full bg-[#1C1F24] border border-[#2A2E35] text-white text-xs font-bold uppercase tracking-widest hover:bg-[#252A32] hover:border-gray-500 transition-all duration-300" href="#signature-dishes">
+              Смотреть меню
+            </a>
+</div>
+<!-- Feature Specs Badges -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 w-full">
+<div class="bg-[#14171A] border border-[#2A2E35]/70 rounded-xl p-3 flex flex-col">
+<span class="material-symbols-outlined text-[#FA541C] text-[20px] mb-1">local_fire_department</span>
+<span class="text-xs font-bold text-white uppercase tracking-wider">Live Charcoal</span>
+<span class="text-[11px] text-gray-400">Открытый гриль</span>
+</div>
+<div class="bg-[#14171A] border border-[#2A2E35]/70 rounded-xl p-3 flex flex-col">
+<span class="material-symbols-outlined text-[#FA541C] text-[20px] mb-1">hotel_class</span>
+<span class="text-xs font-bold text-white uppercase tracking-wider">Accor 5★</span>
+<span class="text-[11px] text-gray-400">Мировой стандарт</span>
+</div>
+<div class="bg-[#14171A] border border-[#2A2E35]/70 rounded-xl p-3 flex flex-col">
+<span class="material-symbols-outlined text-[#FA541C] text-[20px] mb-1">deck</span>
+<span class="text-xs font-bold text-white uppercase tracking-wider">Yard Cafe</span>
+<span class="text-[11px] text-gray-400">Уютная терраса</span>
+</div>
+<div class="bg-[#14171A] border border-[#2A2E35]/70 rounded-xl p-3 flex flex-col">
+<span class="material-symbols-outlined text-[#FA541C] text-[20px] mb-1">schedule</span>
+<span class="text-xs font-bold text-white uppercase tracking-wider">06:30 – 23:00</span>
+<span class="text-[11px] text-gray-400">Ежедневно</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Culinary Presentation (Matching Reference Composition Image 2) -->
+<div class="lg:col-span-6 relative flex justify-center items-center">
+<!-- Decorative Japanese/Asian slate platter backdrop effect -->
+<div class="relative w-full max-w-[540px]">
+<!-- Dark slate board container -->
+<div class="relative rounded-3xl bg-[#14171A] border border-[#2A2E35] p-4 sm:p-6 shadow-[0_24px_60px_-15px_rgba(0,0,0,0.9)] overflow-hidden">
+<!-- Subtle slate texture & decorative garnish scatter inside board -->
+<div class="absolute -right-8 -top-8 w-40 h-40 bg-[#FA541C]/10 rounded-full blur-2xl pointer-events-none"></div>
+<!-- Main Hero Dish / Ambience Image (Image 8: Archa restaurant live fire dining) -->
+<div class="relative rounded-2xl overflow-hidden shadow-2xl h-[280px] sm:h-[320px] group">
+<img alt="Интерьер и открытый огонь ресторана Archa Novotel Bishkek" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/AEtjO1U89M3eUz4WLXgwQ_PGFvyZQ1wHmTMYmg63_Exv50VYh-5lYoomD9LPOcp4827hulbfMM67HBHrU8EvZbt97uPLZ0WiBy9VwtIHi7bzb7BP1eC85ScxxQTnWp-9IBt_2yuVii2w50GLW7Ly01HeNlPMRGwFxkMHCTdc1m15ghW2Ccr7IXvwFqVUtN8x1SvUYe3P5VA_hJz9pWwQDL4D-UaT9kWW1ptmKXLkBih7FD0NonCjmll_DsRVIzM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-black/70 backdrop-blur-md text-white text-xs font-semibold tracking-wider uppercase border border-white/10">
+                    Live Fire Hearth • Archa
+                  </span>
+<span class="text-xs font-bold text-[#FA541C] flex items-center gap-1 bg-[#1C1F24]/90 px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-[14px]">star</span> 5.0
+                  </span>
+</div>
+</div>
+<!-- Secondary Floating Platter (Image 9: Live BBQ Grill in Yard Cafe) -->
+<div class="mt-4 grid grid-cols-12 gap-4 items-center">
+<div class="col-span-7 relative rounded-xl overflow-hidden h-[130px] sm:h-[150px] shadow-lg border border-white/5">
+<img alt="Live charcoal BBQ grill skewers Archa" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida/AEtjO1VsYkQ6ECtKFkwSNsNfGAxr9U6y5lZxiQw95_uw_e-IXs1-2nmkn4wbUy734qd3Iol-cwKrkHmswYxhfPKzLy6rR87ES1_zBWaantGNIEh6HcI1w9EvXT8XF4EkWj0u9Ozx8t1Qd_TX3X1BRvvfvT437jDYTMXNqGZwdABJXegncM2h2NF6ABn2wdav0y4SBPI14B8bkEiTCGo8i61fQAj_EREBi2SBxwy3ATPo5Io9CsyQk6RJozGVZw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<span class="absolute bottom-2 left-2 text-[10px] font-bold uppercase tracking-wider text-white bg-black/60 px-2 py-0.5 rounded">
+                    Yard BBQ
+                  </span>
+</div>
+<!-- Floating Culinary Info Card with Orange Accent -->
+<div class="col-span-5 bg-[#1C1F24] border border-[#2A2E35] rounded-xl p-3.5 flex flex-col justify-between h-full">
+<div>
+<span class="text-[10px] uppercase font-bold text-[#FA541C] tracking-widest">Шелковый путь</span>
+<p class="font-headline font-bold text-white text-xs mt-1 leading-snug">Копчение на ветвях горной арчи</p>
+</div>
+<div class="flex items-center justify-between mt-2 pt-2 border-t border-white/10">
+<span class="text-[11px] text-gray-400">Мясо Halal</span>
+<span class="text-xs font-bold text-[#FA541C]">100%</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Scattered spice elements & chopstick accents (aesthetic graphic touches like ref) -->
+<div class="absolute -bottom-6 -left-6 bg-[#FA541C] text-white p-3.5 rounded-2xl shadow-[0_10px_25px_rgba(250,84,28,0.5)] flex items-center gap-2.5 z-20">
+<span class="material-symbols-outlined text-[24px]">workspace_premium</span>
+<div class="flex flex-col">
+<span class="text-[10px] uppercase tracking-widest font-extrabold text-white/90">Accor Luxury</span>
+<span class="text-xs font-bold">Высший гастрономический класс</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- TORN PAPER / INK BRUSH STROKE TRANSITION (Dark to Pure White, exact styling of Image 2) -->
+<div class="relative w-full mt-16 overflow-hidden leading-none z-20">
+<svg class="w-full h-12 md:h-20 fill-white block" preserveaspectratio="none" viewbox="0 0 1440 80">
+<path d="M0,45 C90,65 180,25 290,48 C410,72 520,32 640,55 C760,78 860,35 980,50 C1100,65 1220,30 1340,58 C1390,68 1420,55 1440,50 L1440,80 L0,80 Z"></path>
+</svg>
+</div>
+</section>
+<!-- ================= SECTION 1: PURE WHITE BACKGROUND (Floating Clean Cards with Dropshadows) ================= -->
+<section class="bg-white text-gray-900 py-16 md:py-24 relative z-20" id="special-offers">
+<div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#FFF2E8] border border-[#FFD8BF] text-[#FA541C] text-xs font-bold uppercase tracking-wider mb-3">
+<span>Спецпредложения Novotel</span>
+</div>
+<h2 class="font-headline font-extrabold text-3xl sm:text-4xl text-gray-900 tracking-tight">
+          Фирменные Спецпредложения &amp; Завтраки
+        </h2>
+<p class="text-sm sm:text-base text-gray-600 mt-3 leading-relaxed">
+          Исключительные моменты гастрономии в ресторане Archa: богатый утренний шведский стол и атмосферные вечера пятничного барбекю в Yard Cafe.
+        </p>
+</div>
+<!-- Grid of Pure-White Rounded Cards (As in reference Image 2 middle section) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Card 1: Breakfast at Archa (Using Image 11) -->
+<div class="bg-white rounded-2xl border border-gray-100 shadow-[0_15px_35px_-5px_rgba(0,0,0,0.08)] hover:shadow-[0_20px_45px_-5px_rgba(250,84,28,0.15)] transition-all duration-300 flex flex-col overflow-hidden group hover:-translate-y-1">
+<div class="relative h-56 overflow-hidden">
+<img alt="Шведский стол и завтрак в ресторане Archa Novotel Bishkek" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1WthS3hCzHI9GQp3Bl8BVn6LGSUE4QPhR310AYGTGUKNqCyOnNlzjl_oMNbFllI2pP0IwDPmqx1LyQFTZk5WkNr3uOY3xeS1FuEIg5z_fHppEUChn_rNzeRM7Nut_4LS4H3Z1wj1vBgNWLB6oSVwtkE6T4MI56VFe3geomM2UoRky8eNokCViV7bk8W1pWZz5p5zxB7hRwMSE6Er1EklLeysxNsWb-pLcilR62Z1fz9MMaKNCF4Ry9zpIY"/>
+<div class="absolute top-3 left-3 bg-white/95 backdrop-blur-md px-3 py-1 rounded-full text-[11px] font-bold text-[#FA541C] tracking-wide uppercase shadow-sm">
+              06:30 – 11:00
+            </div>
+<div class="absolute bottom-3 right-3 bg-[#FA541C] text-white px-3 py-1 rounded-full text-xs font-extrabold shadow-md">
+              2 200 KGS
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-2 text-xs font-bold text-[#FA541C] uppercase tracking-wider mb-1">
+<span class="material-symbols-outlined text-[16px]">sunny</span>
+<span>Шведский стол</span>
+</div>
+<h3 class="font-headline font-bold text-xl text-gray-900 leading-snug">Завтраки в Archa: Идеальное начало дня</h3>
+<p class="text-sm text-gray-600 mt-2.5 leading-relaxed">
+                Разнообразный международный шведский стол с воздушными панкейками, омлет-станцией a la minute, фреш-баром и свежей выпечкой шеф-кондитера.
+              </p>
+<div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-gray-500 font-medium">
+<span>Пн-Пт: 06:30 - 10:30</span>
+<span>Сб-Вс: 06:30 - 11:00</span>
+</div>
+</div>
+<div class="mt-6 pt-4">
+<a class="w-full py-3 rounded-full bg-[#FFF2E8] hover:bg-[#FA541C] text-[#FA541C] hover:text-white text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors duration-300" href="#booking-section">
+<span>Забронировать утренний стол</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 2: BBQ Friday in Yard Cafe (Using Image 9) -->
+<div class="bg-white rounded-2xl border border-gray-100 shadow-[0_15px_35px_-5px_rgba(0,0,0,0.08)] hover:shadow-[0_20px_45px_-5px_rgba(250,84,28,0.15)] transition-all duration-300 flex flex-col overflow-hidden group hover:-translate-y-1">
+<div class="relative h-56 overflow-hidden">
+<img alt="BBQ Friday в Yard Cafe ресторана Archa Novotel" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1VsYkQ6ECtKFkwSNsNfGAxr9U6y5lZxiQw95_uw_e-IXs1-2nmkn4wbUy734qd3Iol-cwKrkHmswYxhfPKzLy6rR87ES1_zBWaantGNIEh6HcI1w9EvXT8XF4EkWj0u9Ozx8t1Qd_TX3X1BRvvfvT437jDYTMXNqGZwdABJXegncM2h2NF6ABn2wdav0y4SBPI14B8bkEiTCGo8i61fQAj_EREBi2SBxwy3ATPo5Io9CsyQk6RJozGVZw"/>
+<div class="absolute top-3 left-3 bg-white/95 backdrop-blur-md px-3 py-1 rounded-full text-[11px] font-bold text-[#FA541C] tracking-wide uppercase shadow-sm">
+              Каждую пятницу • 19:00
+            </div>
+<div class="absolute bottom-3 right-3 bg-gray-900 text-white px-3 py-1 rounded-full text-xs font-bold shadow-md">
+              Yard Cafe
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-2 text-xs font-bold text-[#FA541C] uppercase tracking-wider mb-1">
+<span class="material-symbols-outlined text-[16px]">local_fire_department</span>
+<span>Live Smoke &amp; Chill</span>
+</div>
+<h3 class="font-headline font-bold text-xl text-gray-900 leading-snug">Вечера у открытого огня: BBQ Friday</h3>
+<p class="text-sm text-gray-600 mt-2.5 leading-relaxed">
+                Сочные стейки, авторские шашлыки, ароматный дым можжевельника и атмосферная живая музыка под звездами Бишкека во внутреннем дворе Novotel.
+              </p>
+<div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-gray-500 font-medium">
+<span>Мраморное мясо Halal</span>
+<span>Коктейльная карта</span>
+</div>
+</div>
+<div class="mt-6 pt-4">
+<a class="w-full py-3 rounded-full bg-[#FFF2E8] hover:bg-[#FA541C] text-[#FA541C] hover:text-white text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors duration-300" href="#booking-section">
+<span>Забронировать столик на BBQ</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 3: Wine Cellar & Sommelier Selection -->
+<div class="bg-white rounded-2xl border border-gray-100 shadow-[0_15px_35px_-5px_rgba(0,0,0,0.08)] hover:shadow-[0_20px_45px_-5px_rgba(250,84,28,0.15)] transition-all duration-300 flex flex-col overflow-hidden group hover:-translate-y-1">
+<div class="relative h-56 overflow-hidden bg-[#14171A]">
+<img alt="Коллекция вин и барная карта Archa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90" src="https://lh3.googleusercontent.com/aida/AEtjO1U89M3eUz4WLXgwQ_PGFvyZQ1wHmTMYmg63_Exv50VYh-5lYoomD9LPOcp4827hulbfMM67HBHrU8EvZbt97uPLZ0WiBy9VwtIHi7bzb7BP1eC85ScxxQTnWp-9IBt_2yuVii2w50GLW7Ly01HeNlPMRGwFxkMHCTdc1m15ghW2Ccr7IXvwFqVUtN8x1SvUYe3P5VA_hJz9pWwQDL4D-UaT9kWW1ptmKXLkBih7FD0NonCjmll_DsRVIzM"/>
+<div class="absolute top-3 left-3 bg-white/95 backdrop-blur-md px-3 py-1 rounded-full text-[11px] font-bold text-[#FA541C] tracking-wide uppercase shadow-sm">
+              180+ позиций
+            </div>
+<div class="absolute bottom-3 right-3 bg-[#FA541C] text-white px-3 py-1 rounded-full text-xs font-extrabold shadow-md">
+              Sommelier Pick
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-2 text-xs font-bold text-[#FA541C] uppercase tracking-wider mb-1">
+<span class="material-symbols-outlined text-[16px]">wine_bar</span>
+<span>Энотека &amp; Бар</span>
+</div>
+<h3 class="font-headline font-bold text-xl text-gray-900 leading-snug">Коктейльная и винная коллекция</h3>
+<p class="text-sm text-gray-600 mt-2.5 leading-relaxed">
+                Фирменные коктейли с горным тимьяном и облепихой (Archa Smoked Negroni - 680 KGS), а также коллекционные вина Старого и Нового Света.
+              </p>
+<div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-gray-500 font-medium">
+<span>Silk Road Reserve</span>
+<span>Идеальный пейринг</span>
+</div>
+</div>
+<div class="mt-6 pt-4">
+<a class="w-full py-3 rounded-full bg-[#FFF2E8] hover:bg-[#FA541C] text-[#FA541C] hover:text-white text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors duration-300" href="#signature-dishes">
+<span>Изучить винную карту</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= SECTION 2: DARK BLOCK (F&B Team & Leadership, High Contrast) ================= -->
+<section class="bg-[#0E1012] text-white py-20 relative overflow-hidden" id="team-chefs">
+<div class="absolute top-0 right-1/4 w-80 h-80 rounded-full bg-[#FA541C]/10 blur-[130px] pointer-events-none"></div>
+<div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<!-- Section Header -->
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="text-xs font-bold tracking-[0.24em] text-[#FA541C] uppercase mb-2 block">
+          F&amp;B Команда Novotel Bishkek
+        </span>
+<h2 class="font-headline font-extrabold text-3xl sm:text-4xl text-white tracking-tight">
+          Искусство вкуса от лучших шефов
+        </h2>
+<p class="text-sm sm:text-base text-gray-400 mt-3 leading-relaxed">
+          За каждым шедевром в меню Archa стоит сильная независимая команда профессионалов F&amp;B. Мы создаём гастрономические впечатления, где важна каждая деталь.
+        </p>
+</div>
+<!-- 4 Profiles Grid (Styled like dark feature blocks in Image 2) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Chef 1 -->
+<div class="bg-[#14171A] border border-[#2A2E35] rounded-2xl p-6 flex flex-col justify-between hover:border-[#FA541C]/50 transition-all duration-300 group hover:-translate-y-1">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="w-12 h-12 rounded-full bg-[#FA541C] text-white font-headline font-black flex items-center justify-center text-base shadow-[0_0_15px_rgba(250,84,28,0.5)]">
+                CK
+              </div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-gray-300 bg-[#1C1F24] px-2.5 py-1 rounded-full border border-white/5">
+                Executive
+              </span>
+</div>
+<h3 class="font-headline font-bold text-lg text-white group-hover:text-[#FA541C] transition-colors">Cahit Korkmaz</h3>
+<p class="text-xs font-semibold text-[#FA541C] mt-0.5">Executive Chef (Шеф-исполнитель)</p>
+<p class="text-xs text-gray-400 mt-3 italic leading-relaxed">
+              «Опыт международных стандартов Accor и страсть к созданию уникальных кулинарных концепций на стыке культур.»
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-[#2A2E35] flex items-center gap-2 text-[11px] text-gray-400">
+<span class="material-symbols-outlined text-[#FA541C] text-[16px]">verified</span>
+<span>20+ лет мирового опыта</span>
+</div>
+</div>
+<!-- Chef 2 -->
+<div class="bg-[#14171A] border border-[#2A2E35] rounded-2xl p-6 flex flex-col justify-between hover:border-[#FA541C]/50 transition-all duration-300 group hover:-translate-y-1">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="w-12 h-12 rounded-full bg-[#1C1F24] text-[#FA541C] border border-[#FA541C]/40 font-headline font-black flex items-center justify-center text-base">
+                IM
+              </div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-gray-300 bg-[#1C1F24] px-2.5 py-1 rounded-full border border-white/5">
+                Live Grill
+              </span>
+</div>
+<h3 class="font-headline font-bold text-lg text-white group-hover:text-[#FA541C] transition-colors">Ismailov Mirlan</h3>
+<p class="text-xs font-semibold text-[#FA541C] mt-0.5">Head Chef (Шеф-повар)</p>
+<p class="text-xs text-gray-400 mt-3 italic leading-relaxed">
+              «Мастерство открытого огня, бережная прожарка мяса и сохранение глубоких вкусов древнего Шелкового пути.»
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-[#2A2E35] flex items-center gap-2 text-[11px] text-gray-400">
+<span class="material-symbols-outlined text-[#FA541C] text-[16px]">local_fire_department</span>
+<span>Виртуоз живых углей</span>
+</div>
+</div>
+<!-- Chef 3 -->
+<div class="bg-[#14171A] border border-[#2A2E35] rounded-2xl p-6 flex flex-col justify-between hover:border-[#FA541C]/50 transition-all duration-300 group hover:-translate-y-1">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="w-12 h-12 rounded-full bg-[#1C1F24] text-[#FA541C] border border-[#FA541C]/40 font-headline font-black flex items-center justify-center text-base">
+                SK
+              </div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-gray-300 bg-[#1C1F24] px-2.5 py-1 rounded-full border border-white/5">
+                Patisserie
+              </span>
+</div>
+<h3 class="font-headline font-bold text-lg text-white group-hover:text-[#FA541C] transition-colors">Sultanbekov Kanat</h3>
+<p class="text-xs font-semibold text-[#FA541C] mt-0.5">Pastry Chef (Шеф-кондитер)</p>
+<p class="text-xs text-gray-400 mt-3 italic leading-relaxed">
+              «Авторские десерты, тончайшая слоеная выпечка и сладкие гастрономические акценты для ярких моментов.»
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-[#2A2E35] flex items-center gap-2 text-[11px] text-gray-400">
+<span class="material-symbols-outlined text-[#FA541C] text-[16px]">bakery_dining</span>
+<span>Фирменная пахлава Archa</span>
+</div>
+</div>
+<!-- Chef 4 -->
+<div class="bg-[#14171A] border border-[#2A2E35] rounded-2xl p-6 flex flex-col justify-between hover:border-[#FA541C]/50 transition-all duration-300 group hover:-translate-y-1">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="w-12 h-12 rounded-full bg-[#1C1F24] text-[#FA541C] border border-[#FA541C]/40 font-headline font-black flex items-center justify-center text-base">
+                TR
+              </div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-gray-300 bg-[#1C1F24] px-2.5 py-1 rounded-full border border-white/5">
+                Management
+              </span>
+</div>
+<h3 class="font-headline font-bold text-lg text-white group-hover:text-[#FA541C] transition-colors">Tynaev Ruslan</h3>
+<p class="text-xs font-semibold text-[#FA541C] mt-0.5">F&amp;B Manager</p>
+<p class="text-xs text-gray-400 mt-3 italic leading-relaxed">
+              «Безупречная организация банкетов, статусных ифтаров, винных дегустаций и сервиса мирового уровня.»
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-[#2A2E35] flex items-center gap-2 text-[11px] text-gray-400">
+<span class="material-symbols-outlined text-[#FA541C] text-[16px]">room_service</span>
+<span>Стандарты Accor Hotels</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= SECTION 3: SIGNATURE DISHES (Clean Minimal List / Grid Cards) ================= -->
+<section class="bg-[#F8F9FB] text-gray-900 py-20 border-t border-gray-200" id="signature-dishes">
+<div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<span class="text-xs font-bold uppercase tracking-widest text-[#FA541C] block mb-1">Signature Dishes</span>
+<h2 class="font-headline font-extrabold text-3xl sm:text-4xl text-gray-900 tracking-tight">
+            Фирменные блюда шеф-поваров Archa
+          </h2>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-[#FA541C]"></span>
+<span class="text-xs text-gray-500 font-semibold tracking-wider uppercase">Все блюда готовятся a la minute</span>
+</div>
+</div>
+<!-- Menu Items Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Dish 1 -->
+<div class="bg-white rounded-2xl p-6 border border-gray-100 shadow-[0_10px_25px_rgba(0,0,0,0.04)] hover:shadow-[0_15px_30px_rgba(250,84,28,0.12)] transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-start justify-between gap-4 mb-2">
+<h3 class="font-headline font-bold text-lg text-gray-900 group-hover:text-[#FA541C] transition-colors">
+                Archa Special Kebab на живых углях
+              </h3>
+<span class="text-base font-extrabold text-[#FA541C] whitespace-nowrap bg-[#FFF2E8] px-3 py-1 rounded-full">
+                1 190 KGS
+              </span>
+</div>
+<p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+              Мякоть молодого иссык-кульского ягненка, маринованная в соке дикого граната с горными травами и дымом арчи. Подается с тонким тандырным лавашом и маринованным луком сумах.
+            </p>
+</div>
+<div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-gray-500">
+<span class="flex items-center gap-1.5 font-medium text-gray-700">
+<span class="material-symbols-outlined text-[#FA541C] text-[16px]">local_fire_department</span>
+              Рекомендация шефа Ismailov Mirlan
+            </span>
+<span class="text-[11px] font-bold text-gray-400 uppercase">Halal</span>
+</div>
+</div>
+<!-- Dish 2 -->
+<div class="bg-white rounded-2xl p-6 border border-gray-100 shadow-[0_10px_25px_rgba(0,0,0,0.04)] hover:shadow-[0_15px_30px_rgba(250,84,28,0.12)] transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-start justify-between gap-4 mb-2">
+<h3 class="font-headline font-bold text-lg text-gray-900 group-hover:text-[#FA541C] transition-colors">
+                Рибай Dry-Aged 45 дней
+              </h3>
+<span class="text-base font-extrabold text-[#FA541C] whitespace-nowrap bg-[#FFF2E8] px-3 py-1 rounded-full">
+                2 400 KGS
+              </span>
+</div>
+<p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+              Премиальный отруб сухого вызревания, приготовленный на открытом огне при температуре 400°C. Подается с соусом демиглас из горных ягод и печеным чесноком конфи.
+            </p>
+</div>
+<div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-gray-500">
+<span class="flex items-center gap-1.5 font-medium text-gray-700">
+<span class="material-symbols-outlined text-[#FA541C] text-[16px]">star</span>
+              Accor Gourmet Collection
+            </span>
+<span class="text-[11px] font-bold text-gray-400 uppercase">Steakhouse</span>
+</div>
+</div>
+<!-- Dish 3 -->
+<div class="bg-white rounded-2xl p-6 border border-gray-100 shadow-[0_10px_25px_rgba(0,0,0,0.04)] hover:shadow-[0_15px_30px_rgba(250,84,28,0.12)] transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-start justify-between gap-4 mb-2">
+<h3 class="font-headline font-bold text-lg text-gray-900 group-hover:text-[#FA541C] transition-colors">
+                Форель на углях с шафрановым ризотто
+              </h3>
+<span class="text-base font-extrabold text-[#FA541C] whitespace-nowrap bg-[#FFF2E8] px-3 py-1 rounded-full">
+                1 350 KGS
+              </span>
+</div>
+<p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+              Нежнейшее филе речной форели с хрустящей корочкой, подается на подушке из кремового ризотто с настоящим ферганским шафраном и эмульсией из зеленого базилика.
+            </p>
+</div>
+<div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-gray-500">
+<span class="flex items-center gap-1.5 font-medium text-gray-700">
+<span class="material-symbols-outlined text-[#FA541C] text-[16px]">set_meal</span>
+              Локальный высокогорный улов
+            </span>
+<span class="text-[11px] font-bold text-gray-400 uppercase">Seafood</span>
+</div>
+</div>
+<!-- Dish 4 -->
+<div class="bg-white rounded-2xl p-6 border border-gray-100 shadow-[0_10px_25px_rgba(0,0,0,0.04)] hover:shadow-[0_15px_30px_rgba(250,84,28,0.12)] transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-start justify-between gap-4 mb-2">
+<h3 class="font-headline font-bold text-lg text-gray-900 group-hover:text-[#FA541C] transition-colors">
+                Медовая пахлава с фисташковым мороженым
+              </h3>
+<span class="text-base font-extrabold text-[#FA541C] whitespace-nowrap bg-[#FFF2E8] px-3 py-1 rounded-full">
+                620 KGS
+              </span>
+</div>
+<p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
+              48 слоев невесомого авторского теста, пропитанного высокогорным медом и дроблеными фисташками. Подается с шариком домашнего мороженого от шеф-кондитера Kanat Sultanbekov.
+            </p>
+</div>
+<div class="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-gray-500">
+<span class="flex items-center gap-1.5 font-medium text-gray-700">
+<span class="material-symbols-outlined text-[#FA541C] text-[16px]">cookie</span>
+              Десерт от Kanat Sultanbekov
+            </span>
+<span class="text-[11px] font-bold text-gray-400 uppercase">Dessert</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= SECTION 4: RESERVATION & CONTACTS (Dual Column Layout like Reference Bottom) ================= -->
+<section class="bg-white text-gray-900 py-20 border-t border-gray-200" id="booking-section">
+<div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left: Booking Form with Orange Accents -->
+<div class="lg:col-span-7 bg-[#F8F9FB] rounded-3xl p-6 sm:p-10 border border-gray-200/80 shadow-[0_10px_35px_rgba(0,0,0,0.05)]">
+<div class="mb-8">
+<span class="text-xs font-bold uppercase tracking-widest text-[#FA541C] block mb-1">Novotel Bishkek Table Booking</span>
+<h2 class="font-headline font-extrabold text-2xl sm:text-3xl text-gray-900 tracking-tight">Забронировать столик в Archa</h2>
+<p class="text-xs sm:text-sm text-gray-600 mt-2">
+              Выберите удобную дату, зону посадки и оставьте контакты. Консьерж Novotel подтвердит бронь в течение 10 минут.
+            </p>
+</div>
+<form class="space-y-5" id="reservationForm" onsubmit="event.preventDefault(); handleReservationSubmit();">
+<!-- Row 1: Date & Time & Guests -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+<div>
+<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">Дата визита</label>
+<input class="w-full bg-white border border-gray-300 rounded-xl px-4 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#FA541C] focus:border-[#FA541C] transition-all" id="bookingDate" required="" type="date" value="2025-05-16"/>
+</div>
+<div>
+<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">Время</label>
+<select class="w-full bg-white border border-gray-300 rounded-xl px-4 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#FA541C] focus:border-[#FA541C] transition-all" id="bookingTime">
+<option value="07:30">07:30 (Завтрак)</option>
+<option value="09:00">09:00 (Завтрак)</option>
+<option value="13:00">13:00 (Обед A la Carte)</option>
+<option selected="" value="19:00">19:00 (Ужин / Гриль)</option>
+<option value="20:30">20:30 (Ужин BBQ)</option>
+<option value="21:30">21:30 (Вечерний коктейль)</option>
+</select>
+</div>
+<div>
+<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">Гости</label>
+<select class="w-full bg-white border border-gray-300 rounded-xl px-4 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#FA541C] focus:border-[#FA541C] transition-all" id="bookingGuests">
+<option value="1">1 персона</option>
+<option selected="" value="2">2 персоны</option>
+<option value="4">3–4 персоны</option>
+<option value="6">5–6 персон</option>
+<option value="VIP">Банкет / VIP зал (от 8 чел)</option>
+</select>
+</div>
+</div>
+<!-- Seating Zone Preference -->
+<div>
+<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-2">Предпочтение по залу</label>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+<label class="flex items-center gap-2 p-3 bg-white border border-gray-200 rounded-xl cursor-pointer hover:border-[#FA541C] transition-colors">
+<input checked="" class="accent-[#FA541C]" name="zone" type="radio" value="main"/>
+<span class="text-xs font-semibold text-gray-800">Основной зал Archa</span>
+</label>
+<label class="flex items-center gap-2 p-3 bg-white border border-gray-200 rounded-xl cursor-pointer hover:border-[#FA541C] transition-colors">
+<input class="accent-[#FA541C]" name="zone" type="radio" value="grill"/>
+<span class="text-xs font-semibold text-gray-800">Зона открытого гриля</span>
+</label>
+<label class="flex items-center gap-2 p-3 bg-white border border-gray-200 rounded-xl cursor-pointer hover:border-[#FA541C] transition-colors">
+<input class="accent-[#FA541C]" name="zone" type="radio" value="terrace"/>
+<span class="text-xs font-semibold text-gray-800">Yard Cafe (Терраса)</span>
+</label>
+</div>
+</div>
+<!-- Name & Phone -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">Ваше имя</label>
+<input class="w-full bg-white border border-gray-300 rounded-xl px-4 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#FA541C] focus:border-[#FA541C] transition-all" id="bookingName" placeholder="Например: Азамат" required="" type="text"/>
+</div>
+<div>
+<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">Номер телефона</label>
+<input class="w-full bg-white border border-gray-300 rounded-xl px-4 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#FA541C] focus:border-[#FA541C] transition-all" id="bookingPhone" placeholder="+996 770 118 801" required="" type="tel"/>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="pt-2 flex flex-col sm:flex-row items-center gap-4">
+<button class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-[#FA541C] text-white text-xs font-extrabold uppercase tracking-widest hover:bg-[#E04815] transition-all shadow-[0_8px_25px_rgba(250,84,28,0.4)] flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined text-[18px]">table_bar</span>
+<span>Подтвердить бронирование</span>
+</button>
+<a class="w-full sm:w-auto px-6 py-3.5 rounded-full bg-white border border-gray-300 text-gray-800 hover:text-[#FA541C] text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 transition-colors" href="https://wa.me/996770118801?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%AF%20%D1%85%D0%BE%D1%82%D0%B5%D0%BB%20%D0%B1%D1%8B%20%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D1%81%D1%82%D0%BE%D0%BB%20%D0%B2%20%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D0%B5%20Archa" rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[18px] text-green-600">chat</span>
+<span>Быстрая бронь WhatsApp</span>
+</a>
+</div>
+<!-- Success Alert -->
+<div class="hidden p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-medium text-center" id="bookingSuccessMessage">
+              Спасибо! Ваша бронь принята. Менеджер ресторана свяжется с вами по указанному номеру для подтверждения стола.
+            </div>
+</form>
+</div>
+<!-- Right: Location Details, Hours & Map -->
+<div class="lg:col-span-5 flex flex-col justify-between space-y-6" id="contacts">
+<div>
+<span class="text-xs font-bold uppercase tracking-widest text-[#FA541C] block mb-1">Локация &amp; Часы</span>
+<h3 class="font-headline font-extrabold text-2xl text-gray-900">Ждем вас в сердце Бишкека</h3>
+<p class="text-xs sm:text-sm text-gray-600 mt-2 leading-relaxed">
+              Ресторан Archa расположен на 1-м этаже отеля Novotel Bishkek City Center. Охраняемый подземный и наземный паркинг отеля, круглосуточная служба консьержа.
+            </p>
+</div>
+<!-- Info Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="bg-[#F8F9FB] border border-gray-200 rounded-2xl p-4">
+<div class="flex items-center gap-2 text-[#FA541C] mb-2">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+<span class="text-xs font-bold uppercase tracking-wider">Режим работы</span>
+</div>
+<div class="text-xs text-gray-600 space-y-1">
+<p><strong class="text-gray-900">Завтраки:</strong> 06:30 – 11:00</p>
+<p><strong class="text-gray-900">A la Carte:</strong> До 23:00</p>
+<p><strong class="text-gray-900">BBQ Friday:</strong> Пт, 19:00 – 23:00</p>
+</div>
+</div>
+<div class="bg-[#F8F9FB] border border-gray-200 rounded-2xl p-4">
+<div class="flex items-center gap-2 text-[#FA541C] mb-2">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+<span class="text-xs font-bold uppercase tracking-wider">Контакты</span>
+</div>
+<div class="text-xs text-gray-600 space-y-1">
+<p class="font-semibold text-gray-900">просп. Манаса, 16</p>
+<p><a class="text-gray-900 hover:text-[#FA541C] font-semibold transition-colors" href="tel:+996770118801">+996 770 118 801</a></p>
+<p><a class="text-[#FA541C] hover:underline" href="https://instagram.com/archa.events" rel="noopener" target="_blank">@archa.events</a></p>
+</div>
+</div>
+</div>
+<!-- Direct Line Card -->
+<div class="p-4 rounded-2xl bg-gradient-to-r from-gray-900 to-[#14171A] text-white flex items-center justify-between">
+<div>
+<p class="text-[10px] font-bold uppercase tracking-wider text-[#FA541C]">Индивидуальные мероприятия</p>
+<p class="text-xs font-medium text-gray-200 mt-0.5">Банкеты, ифтары и VIP дегустации</p>
+</div>
+<a class="px-4 py-2 rounded-full bg-[#FA541C] text-white text-[11px] font-extrabold uppercase tracking-wider hover:bg-[#E04815] transition-all" href="tel:+996770118801">
+              Позвонить
+            </a>
+</div>
+<!-- Map Visual Card with Location Anchor -->
+<div class="w-full h-44 rounded-2xl overflow-hidden relative shadow-md group border border-gray-200" data-location="Novotel Bishkek City Center, Manas Avenue, Bishkek, Kyrgyzstan">
+<img alt="Карта проезда Novotel Bishkek City Center" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFmOAs21hrMkDw122F7pd6bGrJ04kgeyUzdhoQy7i5YdHT6y4JHDbQL5Q2sCnASBdmkzKOm-RInGIQ1GXCNzhOJ2S_qu_8P-y6vDITzS9ufdUgoqCH-zaGbaQDYeqTaiiKNGb0Kigud6PqZW9rHE4ruT40paiTTV63XmeEoWLVUrtDHiFw-v9WUfkBQ_1zqZBhVikkH8oP9sJmO9qe3JFvxBBMIlhqiKeEtM7MltF8tOEejIZjbpEo"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute bottom-3 left-4 right-4 flex items-center justify-between">
+<div class="text-white">
+<p class="text-xs font-bold leading-tight">Novotel Bishkek City Center</p>
+<p class="text-[10px] text-gray-300">1 этаж • Проспект Манаса, 16</p>
+</div>
+<a class="px-3 py-1 bg-white text-[#FA541C] rounded-full text-[10px] font-extrabold uppercase tracking-wider hover:bg-gray-100 transition-colors flex items-center gap-1 shadow-sm" href="https://maps.google.com/?q=Novotel+Bishkek+City+Center" rel="noopener" target="_blank">
+<span>Карта</span>
+<span class="material-symbols-outlined text-[12px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= FOOTER (Clean Slate / Matte Black) ================= -->
+<footer class="bg-[#0E1012] text-gray-400 border-t border-[#2A2E35] pt-14 pb-10">
+<div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-[#2A2E35]">
+<!-- Brand Summary -->
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-[#FA541C]"></span>
+<span class="font-headline font-black text-2xl text-white tracking-tight">ARCHA</span>
+</div>
+<p class="text-[11px] font-bold text-[#FA541C] tracking-[0.2em] uppercase">Novotel Bishkek City Center</p>
+<p class="text-xs text-gray-400 leading-relaxed mt-1">
+            Высокая гастрономическая культура Великого Шелкового пути и мастерство живого огня под куполом Novotel Bishkek. Ресторан, бар и открытая терраса.
+          </p>
+</div>
+<!-- Navigation -->
+<div class="flex flex-col gap-3">
+<h4 class="text-xs font-bold uppercase tracking-widest text-white">Разделы</h4>
+<nav class="flex flex-col gap-2 text-xs">
+<a class="hover:text-[#FA541C] transition-colors" href="#about">О концепции</a>
+<a class="hover:text-[#FA541C] transition-colors" href="#special-offers">Завтраки и Шведский стол</a>
+<a class="hover:text-[#FA541C] transition-colors" href="#special-offers">BBQ Friday в Yard Cafe</a>
+<a class="hover:text-[#FA541C] transition-colors" href="#team-chefs">Команда шеф-поваров</a>
+<a class="hover:text-[#FA541C] transition-colors" href="#signature-dishes">Фирменное меню</a>
+<a class="hover:text-[#FA541C] transition-colors" href="#contacts">Контакты и адрес</a>
+</nav>
+</div>
+<!-- Hours -->
+<div class="flex flex-col gap-3">
+<h4 class="text-xs font-bold uppercase tracking-widest text-white">Часы работы</h4>
+<div class="space-y-2 text-xs text-gray-400">
+<div>
+<p class="text-white font-medium">Завтраки</p>
+<p class="text-[11px]">Пн-Пт: 06:30 – 10:30 | Сб-Вс: 06:30 – 11:00</p>
+</div>
+<div>
+<p class="text-white font-medium">A la Carte &amp; Гриль</p>
+<p class="text-[11px]">Ежедневно: 12:00 – 23:00</p>
+</div>
+<div>
+<p class="text-white font-medium">BBQ Friday</p>
+<p class="text-[11px]">Пятница: 19:00 – 23:00</p>
+</div>
+</div>
+</div>
+<!-- Contacts -->
+<div class="flex flex-col gap-3">
+<h4 class="text-xs font-bold uppercase tracking-widest text-white">Контакты</h4>
+<div class="space-y-2 text-xs text-gray-400">
+<p class="text-white">г. Бишкек, просп. Манаса, 16</p>
+<p class="text-[11px]">Novotel Bishkek City Center, 1 этаж</p>
+<p class="pt-1"><a class="text-white hover:text-[#FA541C] font-semibold transition-colors" href="tel:+996770118801">+996 770 118 801</a></p>
+<p><a class="text-[#FA541C] hover:underline text-[11px]" href="https://instagram.com/archa.events" rel="noopener" target="_blank">Instagram: @archa.events</a></p>
+</div>
+</div>
+</div>
+<!-- Copyright -->
+<div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+<p>© Archa Restaurant &amp; Live Grill • Novotel Bishkek. Accor Hotels affiliate. Все права защищены.</p>
+<div class="flex items-center gap-6">
+<a class="hover:text-[#FA541C] transition-colors" href="#booking-section">Условия бронирования</a>
+<a class="hover:text-[#FA541C] transition-colors" href="#contacts">Служба консьержа</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- Inline Script for Client Submission & Interaction -->
+<script>
+    function handleReservationSubmit() {
+      const name = document.getElementById('bookingName').value;
+      const phone = document.getElementById('bookingPhone').value;
+      const date = document.getElementById('bookingDate').value;
+      const time = document.getElementById('bookingTime').value;
+      const guests = document.getElementById('bookingGuests').value;
+      const successBox = document.getElementById('bookingSuccessMessage');
+
+      if (name && phone) {
+        successBox.classList.remove('hidden');
+        successBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        setTimeout(() => {
+          const waUrl = `https://wa.me/996770118801?text=${encodeURIComponent(`Здравствуйте! Бронирование стола в Archa (Novotel Bishkek): Имя: ${name}, Тел: ${phone}, Дата: ${date}, Время: ${time}, Персон: ${guests}`)}`;
+          window.open(waUrl, '_blank');
+        }, 1200);
+      }
+    }
+  </script>
+</body></html>
